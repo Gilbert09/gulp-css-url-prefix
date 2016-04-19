@@ -12,7 +12,10 @@ npm install gulp-css-url-prefix
 urlPrefix(prefix, regexMatch)
 ```
 `prefix` being what you want prefixed to the url
-`regexMatch` being which url you want to target. For example you may have `background-image: `
+
+`regexMatch` being which url you want to target.
+
+For example you may have `background-image: url('/assets/images/bg.png');'` and you only want to target the urls beginning with `/assets/` and so you would do `urlPrefix('http://example.com', '\/assets')`
 
 ```js
 var urlPrefix = require('gulp-css-url-prefix');
