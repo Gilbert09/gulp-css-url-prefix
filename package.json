@@ -1,0 +1,23 @@
+{
+  "name": "gulp-css-url-prefix",
+  "version": "1.0.0",
+  "description": "Prefix urls with a matching pattern in CSS stylesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilbert09/gulp-css-url-prefix.git"
+  },
+  "author": "Thomas Owers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gilbert09/gulp-css-url-prefix/issues"
+  },
+  "homepage": "https://github.com/Gilbert09/gulp-css-url-prefix#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
