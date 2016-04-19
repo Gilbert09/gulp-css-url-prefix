@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-url-prefix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prefix urls with a matching pattern in CSS stylesheets",
   "main": "index.js",
   "scripts": {
