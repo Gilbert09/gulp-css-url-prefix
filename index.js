@@ -12,12 +12,12 @@ function gulpCssUrlPrefix(prefix, regexMatch) {
         }
 
         if (file.isBuffer()) {
-            var reg = new RegExp("url[(]['\"]?" + regexMatch + "([^'\")]*)['\"]?[)]", "g");
+            var reg = new RegExp("url[(]['\"]?(" + regexMatch + "[^'\")]*)['\"]?[)]", "g");
 
             var contents = file.contents.toString('utf8');
 
             file.contents = new Buffer(
-                contents.replace(reg, "url('" + prefix + "/$1')")
+                contents.replace(reg, "url('" + prefix + "$1')")
             );
         }
 
